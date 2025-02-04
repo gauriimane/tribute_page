@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinayak Damodar Savarkar - Biography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        /* Information Box */
+        .info-box {
+            background-color: #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Image Section */
+        .image-section {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .image-section img {
+            width: 280px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .image-section img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Table */
+        .table-box {
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 3px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ddd;
+            color: white;
+        }
+
+        /* Life Stages Section */
+        .section-title {
+            font-size: 24px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .life-stages {
+            margin-top: 20px;
+        }
+
+        .section-box {
+            display: flex;
+            align-items: center;
+            background: #ddd;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 30px; /* Increased spacing */
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            width: 90%;
+        }
+
+        .section-box img {
+            width: 150px;
+            border-radius: 8px;
+        }
+
+        .section-box p {
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        .section-box:hover {
+            transform: scale(1.05);
+        }
+
+        /* Alternating Section Layout */
+        .left {
+            flex-direction: row;
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .right {
+            flex-direction: row-reverse;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .button {
+            background-color: #ddd; /* Grey background */
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ffc927;
+        }
+
+        .button-link {
+            text-decoration: none;
+            color: inherit; /* Ensures the text color does not change */
+            display: block; /* Makes the entire button clickable */
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+            /* Adjust container for smaller screens */
+            .container {
+                padding: 10px;
+                width: 100%;
+            }
+
+            /* Title font size for mobile */
+            .title {
+                font-size: 24px;
+            }
+
+            /* Image Section */
+            .image-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image-section img {
+                width: 100%;
+                max-width: 250px;
+                margin-bottom: 10px;
+            }
+
+            /* Info Box and Table */
+            .info-box {
+                font-size: 16px;
+                padding: 12px;
+            }
+
+            .table-box table, .table-box th, .table-box td {
+                font-size: 14px;
+            }
+
+            /* Life Stages Section */
+            .life-stages .section-box {
+                flex-direction: column;
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+
+            .life-stages .section-box img {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            /* Life Stages Text */
+            .life-stages .section-box p {
+                font-size: 14px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <h1 class="title">Vinayak Damodar Savarkar</h1>
+
+        <!-- Information Section -->
+        <div class="info-box">
+            <p>
+                Vinayak Damodar Savarkar (1883-1966) was an Indian freedom fighter, nationalist, and writer. 
+                He played a crucial role in India's independence movement and advocated Hindutva ideology. 
+                He was imprisoned in the Cellular Jail for his revolutionary activities and later became a 
+                prominent political thinker.
+            </p>
+        </div>
+
+        <!-- Image Section -->
+        <div class="image-section">
+            <img src="Savarkar Pic.jpeg" alt="Savarkar">
+            <img src="Speech Image.jpeg" alt="Savarkar With Books">
+            <img src="Savarkar Img.jpeg" alt="Savarkar Prison">
+        </div>
+
+        <!-- Table Section -->
+        <div class="table-box">
+            <table>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Born</td>
+                    <td>28 May 1883</td>
+                </tr>
+                <tr>
+                    <td>Died</td>
+                    <td>26 February 1966</td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <td>Other Names</td>
+                    <td>Veer Savarkar</td>
+                </tr>
+                <tr>
+                    <td>Occupation</td>
+                    <td>Writer, Freedom Fighter, Politician</td>
+                </tr>
+                <tr>
+                    <td>Known For</td>
+                    <td>Hindutva Philosophy, Indian Independence Movement</td>
+                </tr>
+                <tr>
+                    <td>Political Party</td>
+                    <td>Hindu Mahasabha</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Life Stages Section -->
+        <h2 class="section-title">Life Stages of Veer Savarkar</h2>
+        <div class="life-stages">
+            <div class="section-box left">
+                <img src="Savarkar Unique.jpeg" alt="Early Life">
+                <p><strong>Early Life (1883 – 1900):</strong> Vinayak Damodar Savarkar was born on 28 May 1883 in Bhagur, a small town in Maharashtra, India. He was deeply influenced by his parents, who instilled in him a sense of patriotism and love for Indian culture. From an early age, Savarkar displayed exceptional intelligence and a strong inclination towards literature and history. Tragedy struck when he lost his parents at a young age, but he remained resilient. Inspired by historical figures like Shivaji Maharaj, he started developing nationalist ideas and became an excellent orator and poet.</p>
+            </div>
+
+            <div class="section-box right">
+                <img src="Savarkar College.png" alt="Education">
+                <p><strong>Education & Revolutionary Activities in London (1901 – 1909):</strong> After completing his early education, Savarkar secured admission to Fergusson College, Pune, where he became involved in anti-British movements. His fiery speeches and writings against British rule made him a prominent student leader. In 1906, he received a scholarship to study law at Gray’s Inn, London. During his time in London, he became associated with revolutionary organizations like India House, where he actively promoted the idea of armed resistance against the British. His most notable work from this period was the book The First War of Indian Independence, which provided an Indian perspective on the 1857 uprising, challenging British narratives.</p>
+            </div>
+
+            <div class="section-box left">
+                <img src="Savkar with Friends.jpeg" alt="Freedom Movement">
+                <p><strong>Role in the Indian Freedom Struggle (1909 – 1910):</strong> Savarkar’s revolutionary activities soon drew British attention. In 1909, he was arrested for his involvement in a conspiracy to assassinate a British officer. He was extradited to India, where he was charged with sedition and sentenced to life imprisonment. His fiery speeches, writings, and role in revolutionary activities had already inspired countless Indians. Despite his capture, his ideas continued to spread among revolutionaries, making him a key figure in the Indian independence movement.</p>
+            </div>
+
+            <div class="section-box right">
+                <img src="Savarkar Handsahke.jpeg" alt="Prison">
+                <p><strong>Imprisonment in Cellular Jail (1911 – 1924):</strong> Savarkar was sentenced to two life terms (50 years in total) and transported to the infamous Cellular Jail in Andaman and Nicobar Islands in 1911. The conditions in the jail were brutal—prisoners were subjected to hard labor, solitary confinement, and inhumane treatment. Despite these hardships, Savarkar continued his struggle through writing and ideological contributions. He secretly composed poems and letters, inspiring fellow prisoners. During his time in prison, he also formulated his Hindutva philosophy, emphasizing the cultural and national identity of Hindus. After spending 13 years in the Cellular Jail, he was eventually released under strict conditions in 1924.</p>
+            </div>
+
+            <div class="section-box left">
+                <img src="Savarkar Sitting Image.jpeg" alt="Later Years">
+                <p><strong>Political Career & Hindutva Ideology (1925 – 1947):</strong> After his release, Savarkar was kept under house arrest in Ratnagiri. During this period, he focused on social reforms and political writings. He emphasized Hindu unity, eradication of caste discrimination, and nationalistic awakening. In 1937, he became the President of the Hindu Mahasabha, a political organization advocating Hindu nationalism. While he strongly opposed British rule, he also disagreed with Mahatma Gandhi’s policy of non-violence, arguing that armed struggle was necessary for independence. His philosophy of Hindutva, outlined in his book Hindutva: Who is a Hindu?, became the foundation for Hindu nationalist movements in India.</p>
+            </div>
+
+            <div class="section-box right">
+                <img src="Savarkar Reading Newspaper.jpeg" alt="Legacy">
+                <p><strong>Post-Independence & Later Years (1948 – 1966):</strong> After India gained independence in 1947, Savarkar’s influence in politics began to decline. He was accused in the Mahatma Gandhi assassination case (1948) but was later acquitted due to lack of evidence. Following this, he largely withdrew from active politics and devoted his time to writing and historical research. His contributions to India's freedom movement remained controversial, but his writings and ideas continued to shape Indian political thought. In his final years, he promoted the concept of "Hindu Rashtra" and called for national unity.</p>
+            </div>
+
+            <div class="section-box left">
+                <img src="Savarkar Black White Image.jpeg" alt="Legacy">
+                <p><strong>Death & Legacy (1966 - Present):</strong> n his last years, Savarkar decided to undertake "Atma Samarpan" (self-sacrifice), choosing to fast until death. On 26 February 1966, he passed away in Mumbai at the age of 82. His legacy remains deeply debated in Indian history. While some view him as a brave nationalist and freedom fighter, others criticize his political ideology. Regardless, his contributions to India's struggle for independence, his writings on Hindutva, and his role in shaping modern Indian politics continue to be studied and discussed widely.</p>
+            </div>
+        </div>
+        <button class="button">
+            <a href="Assignment2.html" class="button-link">Back to Homepage</a>
+        </button>
+        </div>
+
+</body>
+</html>

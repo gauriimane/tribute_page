@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        .video-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 videos per row */
+            gap: 20px; /* Space between grid items */
+            margin-top: 20px;
+        }
+
+        .video-box {
+            background-color: #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .video-box:hover {
+            transform: scale(1.05);
+        }
+
+        video {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+        }
+
+        .manual {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .button {
+            background-color: #ddd; /* Grey background */
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ffc927;
+        }
+
+        .button-link {
+            text-decoration: none;
+            color: inherit; /* Ensures the text color does not change */
+            display: block; /* Makes the entire button clickable */
+        }
+
+        /* Responsive Grid for Mobile */
+        @media screen and (max-width: 900px) {
+            .video-section {
+                grid-template-columns: repeat(2, 1fr); /* 2 videos per row on medium screens */
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .video-section {
+                grid-template-columns: repeat(1, 1fr); /* 1 video per row on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Video Gallery</h1>
+        <div class="video-section">
+            <div class="video-box">
+                <h2>Veer Savarkar Hosting Flag</h2>
+                <video controls>
+                    <source src="Veer Savarkar hoisting flag.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="manual">
+                    <p>This video showcases Veer Savarkar hoisting the national flag during an important event.</p>
+                </div>
+            </div>
+            <div class="video-box">
+                <h2>Savarkar's Speech Video</h2>
+                <video controls>
+                    <source src="Veer Savarkar real speech video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="manual">
+                    <p>In this video, Veer Savarkar delivers a powerful speech on the importance of unity.</p>
+                </div>
+            </div>
+            <div class="video-box">
+                <h2>Hindutva Mahasabha</h2>
+                <video controls>
+                    <source src="Veer Savarkar real video-Hindu mahasaba.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="manual">
+                    <p>This video shows the proceedings of the Hindutva Mahasabha.</p>
+                </div>
+            </div>
+            <div class="video-box">
+                <h2>Savarkar’s Birthday Celebration</h2>
+                <video controls>
+                    <source src="Veer Savarkar birthday celebration real video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="manual">
+                    <p>This video captures the celebrations of Veer Savarkar’s birthday.</p>
+                </div>
+            </div>
+            <div class="video-box">
+                <h2>Veer Savarkar’s Cripp's Mission Video</h2>
+                <video controls>
+                    <source src="Veer Savarkar cripps mission.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="manual">
+                    <p>The Cripps Mission aimed to seek Indian support during World War II.</p>
+                </div>
+            </div>
+            <div class="video-box">
+                <h2>Veer Savarkar’s Discussion Video</h2>
+                <video controls>
+                    <source src="Veer Savarkar real video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="manual">
+                    <p>An in-depth discussion about Veer Savarkar’s philosophies.</p>
+                </div>
+            </div>
+            <div class="video-box">
+                <h2>Veer Savarkar Imprisoned at Cellular Jail</h2>
+                <video controls>
+                    <source src="videoplayback (2).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="manual">
+                    <p>The harsh conditions of Veer Savarkar's imprisonment at the Cellular Jail.</p>
+                </div>
+            </div>
+            <div class="video-box">
+                <h2>Veer Savarkar’s Funeral - Antim Yatra</h2>
+                <video controls>
+                    <source src="Veer Savarkar (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="manual">
+                    <p>Documents the funeral procession of Veer Savarkar.</p>
+                </div>
+            </div>
+        </div><br>
+        <button class="button">
+            <a href="Assignment2.html" class="button-link">Back to Homepage</a>
+        </button>
+    </div>
+</body>
+</html>

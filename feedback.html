@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condolence Messages</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        /* Form Section */
+        .form-section {
+            background-color: #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .form-section h2 {
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 90%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Messages Section */
+        .messages-section {
+            margin-top: 30px;
+        }
+
+        .message-box {
+            background: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .message-box h3 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .message-box p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .button {
+            background-color: #ddd; /* Grey background */
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ffc927;
+        }
+
+        .button-link {
+            text-decoration: none;
+            color: inherit; /* Ensures the text color does not change */
+            display: block; /* Makes the entire button clickable */
+        }
+
+
+        /* Mobile Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 15px;
+            }
+
+            .title {
+                font-size: 28px;
+            }
+
+            .form-section {
+                font-size: 16px;
+                padding: 15px;
+            }
+
+            textarea {
+                width: 90%;
+            }
+
+            .submit-btn {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+
+            .message-box h3 {
+                font-size: 16px;
+            }
+
+            .message-box p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <h1 class="title">Condolence Messages</h1>
+
+        <!-- Form Section -->
+        <div class="form-section">
+            <h2>Share Your Thoughts</h2>
+            <form method="POST">
+                <textarea rows="6" placeholder="Write your message here..." name="message"></textarea><br>
+                <button type="submit" class="submit-btn">Submit Message</button>
+            </form>
+        </div>
+
+        <!-- Messages Section -->
+        <div class="messages-section">
+            <div class="message-box">
+                <h3>Gauri Mane</h3>
+                <p>It is with a heavy heart that I send my condolences. May your soul rest in peace. You will always be remembered for your kindness and love.</p>
+            </div>
+
+            <div class="message-box">
+                <h3>Varun Mane</h3>
+                <p>My deepest sympathies go out to the family. I will cherish the memories of our time together. Rest in peace.</p>
+            </div>
+
+            <!-- Additional messages will be added here after submission -->
+        </div>
+        <button class="button">
+            <a href="Assignment2.html" class="button-link">Back to Homepage</a>
+        </button>
+    </div>
+
+</body>
+</html>
